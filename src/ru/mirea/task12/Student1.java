@@ -43,11 +43,6 @@ class Main
                 j--;
             }
             a[j] = currentStudent;
-            while (j > 0 && a[j - 1].getId().charAt(1) > current1) {
-                a[j] = a[j - 1];
-                j--;
-            }
-            a[j] = currentStudent;
         }
     }
 
@@ -87,3 +82,4 @@ class Main
         output(a);
     }
 }
+
